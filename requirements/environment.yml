@@ -1,0 +1,22 @@
+name: retreiver
+channels:
+  - pytorch
+  - conda-forge
+  - nvidia
+  - pyg
+  - defaults
+dependencies:
+  - python=3.10.0
+  - pip
+  - pytorch
+  - torchvision
+  - torchaudio
+  - tqdm
+  - pyg
+  - pip:
+    - transformers==4.32.0
+    - numpy
+    - accelerate
+    - bitsandbytes
+    - tqdm
+    - pycocoevalcap
